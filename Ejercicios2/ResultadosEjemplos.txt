@@ -1,0 +1,30 @@
+******************************
+Practica 2 Criptografia. Cifrado de flujo
+******************************
+Ejercicio 1
+La lista:  [1, 1, 1, 0, 0, 0, 0, 1, 0, 1, 0, 1, 0, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1]
+Cumple el postulado 1 de Golomb
+No Cumple el postulado 2 de Golomb
+No Cumple el postulado 3 de Golomb
+******************************
+Ejercicio 2. 
+[1, 0, 1, 1, 0, 0, 1, 0, 0, 0, 1, 1, 1, 1, 0]
+******************************
+Ejercicio 3.
+[0, 0, 1, 1, 0, 0, 1, 1, 0, 0, 1, 1, 0, 0, 1, 1, 0, 0, 1, 1]
+******************************
+Ejercicio 4
+[0, 0, 1, 0, 1, 0, 1, 0, 0, 1, 1, 1, 1, 1, 1]
+------------------------------
+Geffe cifrado. Ejecutando ejemplo.
+El texto a cifrar es:  [1, 0, 0, 0, 1, 1, 0, 1, 0, 0, 1, 1, 1, 1]
+El resultado es :
+[1, 0, 1, 0, 0, 1, 1, 1, 0, 1, 0, 0, 0, 0]
+------------------------------
+Geffe descifrado.
+El resultado del descifrado es: [1, 0, 0, 0, 1, 1, 0, 1, 0, 0, 1, 1, 1, 1]
+******************************
+Ejercicio 5
+La secuencia es  (1, 1, 1, 0, 0, 0, 1, 1, 0, 1, 1)
+El polinomio es: x^5 + x^2 + 1
+y la complejidad:  5

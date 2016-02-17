@@ -1,0 +1,126 @@
+Guion De Ejercicios de Criptografia
+Practica 1 Aritmetica modular
+*--**--**--**--**--**--**--**--**--**--**--**--**--**--**--*
+
+Ejecutando ejercicio 1. Algoritmo extendido de Euclides.
+Valores a,b: 124815345435432523523523453426342623132542 5236234
+Resultado: (2L, 768795L, -18325654180854665189192693332059850066132L)
+El tiempo de ejecucion es : 0.0
+*--**--**--**--**--**--**--**--**--**--**--**--**--**--**--*
+
+*--**--**--**--**--**--**--**--**--**--**--**--**--**--**--*
+
+Ejecutando ejercicio 2. a^-1 mod m
+Valores a , m:  391 1542
+El resultado es: 631
+El tiempo de ejecucion del algoritmo es: 0.0
+*--**--**--**--**--**--**--**--**--**--**--**--**--**--**--*
+
+*--**--**--**--**--**--**--**--**--**--**--**--**--**--**--*
+
+Ejercicio 3. y^x mod n  
+Tiempo de mod exp de forma iterativa: 2.73
+Tiempo de mod exp1 convirtiendo la cadena: 
+y haciendolo en orden correcto 0.0
+0
+Tiempo de mod exp2. Forma mas eficiente convirtiendo a base dos
+y calculando en orden inverso a mod exp1: 0.0
+*--**--**--**--**--**--**--**--**--**--**--**--**--**--**--*
+*--**--**--**--**--**--**--**--**--**--**--**--**--**--**--*
+
+Ejercicio 4. Test de primalidad de Miller-Rabin
+Valor del numero al que pasarle el test 38771810603
+Numero de repeticiones del Test 10
+Resultado del algoritmo True
+Tiempo de ejecucion 0.0
+*--**--**--**--**--**--**--**--**--**--**--**--**--**--**--*
+
+*--**--**--**--**--**--**--**--**--**--**--**--**--**--**--*
+
+Ejercicio 5. Implementacion del algoritmo Paso Gigante Paso Enano
+Valores de y,a,n 7 2 131
+El resultado del algoritmo [14, 21, 0, 7, 42, 49, 28, 35, 70, 77, 56]
+[9, 20, 35, 46, 53, 64, 79, 90, 97, 108, 123]
+ Posiciones en las que se producen las coincidencias:
+7 2
+26
+Tiempo de ejecucion del algoritmo: [14, 21, 0, 7, 42, 49, 28, 35, 70, 77, 56]
+[9, 20, 35, 46, 53, 64, 79, 90, 97, 108, 123]
+ Posiciones en las que se producen las coincidencias:
+7 2
+0.0
+*--**--**--**--**--**--**--**--**--**--**--**--**--**--**--*
+
+*--**--**--**--**--**--**--**--**--**--**--**--**--**--**--*
+
+Ejercicio 6.
+------------------------------------------------------------
+Apartado a)
+Comprobamos el valor del simbolo de jacobi para a y p: 5 299
+Calculo iterativo.  Resultado: 1 Tiempo de ejecucion: 0.0
+Calculo recursivo.  Resultado: 1 Tiempo de ejecucion: 0.0
+Calculo de raices cuadraticas:
+Valores de a,p: 5 299
+El resultado del algoritmo 34
+Tiempo de ejecucion del algoritmo: 0.0
+
+------------------------------------------------------------
+Apartado b)
+Calculo de las raices modulares de a en n=p*q
+Valores para a,n,p,q:  132 493 17 29
+Resultado:  Raices de p y q respectivamente
+[8, 9] [25, 4]
+(25, 468, 178, 315)
+El tiempo de ejecucion del algoritmo es :  Raices de p y q respectivamente
+[8, 9] [25, 4]
+0.0
+------------------------------------------------------------
+*--**--**--**--**--**--**--**--**--**--**--**--**--**--**--*
+
+Ejercicio 7.
+------------------------------------------------------------
+
+Apartado A)
+Factorizacion de Fermat
+Valor de prueba 40259
+Probando: a=201 b2=142 b=11
+Probando: a=202 b2=545 b=23
+Probando: a=203 b2=950 b=30
+Probando: a=204 b2=1357 b=36
+Probando: a=205 b2=1766 b=42
+Probando: a=206 b2=2177 b=46
+Probando: a=207 b2=2590 b=50
+Probando: a=208 b2=3005 b=54
+Probando: a=209 b2=3422 b=58
+Probando: a=210 b2=3841 b=61
+Probando: a=211 b2=4262 b=65
+Probando: a=212 b2=4685 b=68
+Probando: a=213 b2=5110 b=71
+Probando: a=214 b2=5537 b=74
+Probando: a=215 b2=5966 b=77
+Probando: a=216 b2=6397 b=79
+Probando: a=217 b2=6830 b=82
+Probando: a=218 b2=7265 b=85
+Probando: a=219 b2=7702 b=87
+Probando: a=220 b2=8141 b=90
+Probando: a=221 b2=8582 b=92
+Valores para  a ,b, p=a+b ,q=a-b, p*q: 222 95 317 127 40259
+Resultado: 317 127
+Tiempo de ejecucion del algoritmo: 0.0
+*--**--**--**--**--**--**--**--**--**--**--**--**--**--**--*
+
+------------------------------------------------------------
+
+Apartado B)
+Valor de prueba 201109381597761
+Resultado de aplicar el algoritmo p de pollard es: 3
+El tiempo de ejecucion del algoritmo es de : 0.0
+------------------------------------------------------------
+Valoraciones sobre el tiempo.
+
+No hay nada que comparar ya que en Maxima,SAGE,librerias de python 
+con funciones definidas los tiempos son iguales que las
+implementaciones realizadas. 
+
+============================================================
+
